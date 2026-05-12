@@ -1,4 +1,22 @@
-This project includes three different drawing tools related to computer graphics that can be used through a GUI. Each of them is contained within the folders named "lines_shapes", "fractals" and "l_systems". Each of them can be lanuched via the "main.py" file located inside its folder. The three projects are independent of each other, even if they are closely related.
+# Computer Graphics Drawing Tools
+
+A collection of three interactive Python tools for exploring line algorithms and 2D shapes, fractal geometry, and L-Systems.
+Each tool features a dedicated GUI and is self-contained within one of the following folders: `lines_shapes`, `fractals` and `l_systems`. Any of them can be launched via the "main.py" file located inside its folder. For example, in order to run the L-System tool from the root directory of the repository, the following command will be used:
+```bash
+python l_systems/main.py
+```
+After that, the GUI should apear onscreen. 
+
+Similarly, to run the other two tools from the root directory of the repository:
+```bash
+python fractals/main.py
+python lines_shapes/main.py
+```
+
+Each tool is independent from each other, even if they are closely related in UI style and implementation.
+
+[!NOTE]
+So far, the project has been tested on the Windows 10 OS.
 
 ## Dependencies
 
